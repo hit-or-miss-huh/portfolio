@@ -1,0 +1,64 @@
+body{
+  background-color: Ivory;
+  color: maroon;
+  font-family: cursive;
+  text-align: center;
+}
+
+.divine{
+  background-color: Ivory
+}
+
+.col{
+  float: left;
+  display: inline-block;
+  height: 100%;
+  width: 49.3%;
+  border: 3px solid maroon;
+}
+
+.row{
+  width: 100%;
+  height: 400px;
+}
+
+#thomas{
+  background-image: url(tomas.jpg);
+  background-size: cover;
+}
+
+#hit{
+  background-image: url(hit.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#sparta{
+  background-image: url(sparta.jpg);
+  background-size: fill;
+}
+
+#stop{
+  background-image: url(Stop.jpg);
+  background-size: cover;
+}
+
+#dead{
+  background-image: url(Dead.jpg);
+  background-size: fill;
+}
+
+#fault{
+  background-image: url(Fault.jpg);
+  background-size: cover;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
