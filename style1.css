@@ -31,6 +31,7 @@ body{
   background-image: url(hit.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 
 #sparta{
@@ -51,6 +52,7 @@ body{
 #fault{
   background-image: url(Fault.jpg);
   background-size: cover;
+  background-position: bottom;
 }
 
 #world{
@@ -61,4 +63,9 @@ body{
 #joriel{
   background-image: url(Joriel.jpg);
   background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
 }
