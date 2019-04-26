@@ -11,6 +11,11 @@ body{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.LGV{
+  background-color: PowderBlue;
+  color: SlateGray;
+}
+
 .col{
   float: left;
   display: inline-block;
