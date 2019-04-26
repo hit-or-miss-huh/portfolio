@@ -6,9 +6,12 @@
   <link rel="stylesheet" href="style1.css">
       <!-- Tab links -->
   <div class="tab">
-   <button class="tablinks" onclick="openCity(event, 'num1')">Lore</button>
-   <button class="tablinks" onclick="openCity(event, 'num2')">Gore</button>
-   <button class="tablinks" onclick="openCity(event, 'num3')">Vore</button>
+   <button class="tablinks" onclick="openTab(event, 'num1')">Lore</button>
+   <button class="tablinks" onclick="openTab(event, 'num2')">War</button>
+   <button class="tablinks" onclick="openTab(event, 'num3')">Gore</button>
+   <button class="tablinks" onclick="openTab(event, 'num4')">Vore</button>
+   <button class="tablinks" onclick="openTab(event, 'num5')">Store</button>
+   <button class="tablinks" onclick="openTab(event, 'num6')">More</button>
   </div>
     <!-- Tab content -->
   <div id="num1" class="tabcontent">
@@ -35,7 +38,6 @@
     </p>
     </div>
   </div>
-  
   <div id="num2" class="tabcontent">
     <div class= "divine">
      <h3>Tab 2</h3>
@@ -44,13 +46,33 @@
    <p>This is where I will put things in Tab 2.</p> 
     </div>
   </div>
-
   <div id="num3" class="tabcontent">
     <div class= "divine">
      <h3>Tab 3</h3>
     </div>
     <div class= "LGV">
    <p>This is where I will put things in Tab 3.</p>
+    </div>
+  </div>  <div id="num3" class="tabcontent">
+    <div class= "divine">
+     <h3>Tab 4</h3>
+    </div>
+    <div class= "LGV">
+   <p>This is where I will put things in Tab 4.</p>
+    </div>
+  </div>  <div id="num3" class="tabcontent">
+    <div class= "divine">
+     <h3>Tab 5</h3>
+    </div>
+    <div class= "LGV">
+   <p>This is where I will put things in Tab 5.</p>
+    </div>
+  </div>  <div id="num3" class="tabcontent">
+    <div class= "divine">
+     <h3>Tab 6</h3>
+    </div>
+    <div class= "LGV">
+   <p>This is where I will put things in Tab 6.</p>
     </div>
   </div>
   <h1>DEREK's GOBDASM</h1>
@@ -106,7 +128,7 @@
   <a href= "hit_or_miss.png"><button></button></a href>
 </div>
 <script>
-    function openCity(evt, cityName) {
+    function openTab(evt, tabName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -123,7 +145,7 @@
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
   }
   
