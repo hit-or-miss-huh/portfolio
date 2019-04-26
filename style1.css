@@ -6,7 +6,9 @@ body{
 }
 
 .divine{
-  background-color: Ivory
+  background-color: DarkSlateBlue;
+  color: Silver;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .col{
