@@ -44,7 +44,7 @@
       <div class= "divine">
         <h3>Tab 2</h3>
       </div>
-      <p>This is where I will put things in Tab 2.</p> 
+      <p>This is where I will put things in Tab 2.</p>
     </div>
   </div>
   <div id="num3" class="tabcontent">
@@ -55,15 +55,15 @@
       <p>This is where I will put things in Tab 3.</p>
     </div>
   </div>
-  <div id="num3" class="tabcontent">
+  <div id="num4" class="tabcontent">
     <div class="LGV">
       <div class= "divine">
         <h3>Tab 4</h3>
       </div>
-      <p>This is where I will put things in Tab 4.</p>
+      <font size="7"><h3>no.</h3></font>
     </div>
   </div>
-  <div id="num3" class="tabcontent">
+  <div id="num5" class="tabcontent">
     <div class="LGV">
       <div class= "divine">
         <h3>Tab 5</h3>
@@ -71,7 +71,7 @@
       <p>This is where I will put things in Tab 5.</p>
     </div>
   </div>
-  <div id="num3" class="tabcontent">
+  <div id="num6" class="tabcontent">
     <div class="LGV">
       <div class= "divine">
         <h3>Tab 6</h3>
@@ -80,7 +80,7 @@
     </div>
   </div>
   <!-- Page finally begins -->
-  <h1>DEREK's GOBDASM</h1>
+  <font size="5"><h1>DEREK's GOBDASM</h1></font>
   <audio id="audio" controls style="display:none">
     <source src="First_numeral.mp3" type="audio/mpeg">
   </audio>
@@ -119,6 +119,7 @@
   </div>
   <div class= "row">
     <div class= "col" id="loss">
+      <p>Is this loss?</p>
     </div>
     <div class= "col" id="stop">
     </div>
@@ -135,43 +136,42 @@
   </div>
   <!-- Bottom row buttons (no titles) -->
   <div>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "game.jpg"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
-    <a href= "hit_or_miss.png"><button></button></a href>
+    <div>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "game.jpg"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+      <a href= "hit_or_miss.png"><button></button></a href>
+    </div>
   </div>
-    
-    
-    
-    
+
+
+
+
 <!-- JavaScript from now on -->
 <script>
     function openTab(evt, tabName) {
   // Declare all variables
   var i, tabcontent, tablinks;
-
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-
   // Get all elements with class="tablinks" and remove the class "active"
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
   }
-  
+
   // press f to pay respects
   document.addEventListener('keydown', function(f) {
     if (f.keyCode == 70) {
