@@ -20,7 +20,7 @@ body{
   float: left;
   display: inline-block;
   height: 100%;
-  width: 32.9%;
+  width: 32.5%;
   border: 3px solid maroon;
 }
 
@@ -96,6 +96,96 @@ body{
   background-image: url(Fault.jpg);
   background-size: cover;
   background-position: bottom;
+}
+
+#tacos{
+  background-image: url(tuesday.jpg);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
+}
+
+#world{
+  background-image: url(ZA WARUDO.png);
+  background-size: cover;
+}
+
+#joriel{
+  background-image: url(Joriel.jpg);
+  background-size: cover;
+}
+
+#loss{
+    background-image: url(loss.png);
+    background-size: contain;
 }
 
 #world{
