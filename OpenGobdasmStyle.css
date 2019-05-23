@@ -118,35 +118,35 @@ body{
   background-size: cover;
 }
 
-#joriel{
-  background-image: url(Joriel.jpg);
+#swamp{
+  background-image: url(swamp.jpg);
   background-size: cover;
 }
 
-#loss{
-    background-image: url(loss.png);
+#caroline{
+    background-image: url(Caroline.jpg);
     background-size: contain;
 }
 
-#world{
-  background-image: url(ZA WARUDO.png);
+#ppap{
+  background-image: url(ppap.jpg);
   background-size: cover;
 }
 
-#joriel{
-  background-image: url(Joriel.jpg);
+#weapons{
+  background-image: url(Weapons.jpg);
   background-size: cover;
 }
 
-#loss{
-    background-image: url(loss.png);
+#garfle ded{
+    background-image: url(garfle ded.jpg);
     background-size: contain;
 }
 
-#world{
-  background-image: url(ZA WARUDO.png);
+#harry{
+  background-image: url(harry.jpg);
   background-size: cover;
-}
+}                                                   /* Stopped here */
 
 #joriel{
   background-image: url(Joriel.jpg);
