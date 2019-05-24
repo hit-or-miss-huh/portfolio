@@ -138,18 +138,33 @@ body{
   background-size: cover;
 }
 
-#garfle ded{
+#garfle{
     background-image: url(garfle ded.jpg);
     background-size: contain;
 }
 
 #harry{
-  background-image: url(harry.jpg);
+  background-image: url(Harry.jpg);
   background-size: cover;
 }                                                   /* Stopped here */
 
-#joriel{
-  background-image: url(Joriel.jpg);
+#blank{
+  background-image: url(blank.jpg);
+  background-size: cover;
+}
+
+#blank{
+    background-image: url(blank.png);
+    background-size: contain;
+}
+
+#blank{
+  background-image: url(blank.jpg);
+  background-size: cover;
+}
+
+#blank{
+  background-image: url(blank.jpg);
   background-size: cover;
 }
 
@@ -158,47 +173,32 @@ body{
     background-size: contain;
 }
 
-#world{
-  background-image: url(ZA WARUDO.png);
+#blank{
+  background-image: url(blank.jpg);
   background-size: cover;
 }
 
-#joriel{
-  background-image: url(Joriel.jpg);
+#blank{
+  background-image: url(blank.jpg);
   background-size: cover;
 }
 
-#loss{
-    background-image: url(loss.png);
+#blank{
+    background-image: url(blank.jpg);
     background-size: contain;
 }
 
-#world{
-  background-image: url(ZA WARUDO.png);
+#blank.jpg{
+  background-image: url(blank.jpg);
   background-size: cover;
 }
 
-#joriel{
-  background-image: url(Joriel.jpg);
+#blank{
+  background-image: url(blank.jpg);
   background-size: cover;
 }
 
-#loss{
-    background-image: url(loss.png);
-    background-size: contain;
-}
-
-#world{
-  background-image: url(ZA WARUDO.png);
-  background-size: cover;
-}
-
-#joriel{
-  background-image: url(Joriel.jpg);
-  background-size: cover;
-}
-
-#loss{
-    background-image: url(loss.png);
+#blank{
+    background-image: url(blank);
     background-size: contain;
 }
