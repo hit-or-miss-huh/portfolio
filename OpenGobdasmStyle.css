@@ -115,7 +115,7 @@ body{
 
 #world{
   background-image: url(ZA_WARUDO.png);
-  background-size: cover;
+  background-size: center;
 }
 
 #swamp{
@@ -140,7 +140,7 @@ body{
 
 #garfle{
     background-image: url(garfle_ded.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 #harry{
@@ -150,55 +150,5 @@ body{
 
 #HIMHEYS{
   background-image: url(HIMHEYS.png);
-  background-size: cover;
-}
-
-#blank{
-    background-image: url(blank.png);
-    background-size: contain;
-}
-
-#blank{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#blank{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#loss{
-    background-image: url(loss.png);
-    background-size: contain;
-}
-
-#blank{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#blank{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#blank{
-    background-image: url(blank.jpg);
-    background-size: contain;
-}
-
-#blank.jpg{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#blank{
-  background-image: url(blank.jpg);
-  background-size: cover;
-}
-
-#blank{
-    background-image: url(blank);
-    background-size: contain;
+  background-size: contain;
 }
