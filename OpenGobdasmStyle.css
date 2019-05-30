@@ -1,7 +1,7 @@
 body{
   background-color: Ivory;
   color: maroon;
-  font-family: cursive;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
 }
 
@@ -115,7 +115,8 @@ body{
 
 #world{
   background-image: url(ZA_WARUDO.png);
-  background-size: center;
+  background-size: cover;
+  background-position: center;
 }
 
 #swamp{
