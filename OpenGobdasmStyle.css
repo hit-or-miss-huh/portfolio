@@ -11,7 +11,7 @@ body{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-button {
+.butt{
   background-color: #DarkGrey; /* Green */
   border: none;
   color: Black;
