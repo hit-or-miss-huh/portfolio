@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Sign in Page </title>
+  <title> Redirect </title>
 </head>
-
-
-<script>
-if (user==What&pw==picoctf) {
-	window.location = "https://spaghetti-joe.github.io/Art-Gallery/artgallery.html";
-} else { 
-   window.location = "https://hit-or-miss-huh.github.io/portfolio/sign-in.html";
-    }
-</script>
+	{% if user == "What" and pw == "picoctf" %}
+	<a href = "https://spaghetti-joe.github.io/Art-Gallery/artgallery.html">
+	{% else %}
+	<a href = "https://hit-or-miss-huh.github.io/portfolio/sign-in.html">
+	{% endif %}
 </html>
