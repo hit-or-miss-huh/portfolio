@@ -14,6 +14,9 @@
    <button class="tablinks" onclick="openTab(event, 'num6')">More</button>
   </div>
   <!-- Tab content -->
+  <script>
+    var qwert = 0;
+  </script>
   <div id="num1" class="tabcontent">
     <div class= "LGV">
       <div class= "divine">
@@ -86,13 +89,27 @@
   <div id="num5" class="tabcontent">
     <div class="LGV">
       <div class= "divine">
+        <h3>Score</h3>
+      </div>
+      <p>Number of clicks.</p>
+      <script>
+        document.getElementById('button').onclick = function() {
+          var qwert = qwert + 1;
+        };
+      </script>
+      <p><var>qwert</var></p>
+    </div>
+  </div>
+  <div id="num6" class="tabcontent">
+    <div class="LGV">
+      <div class= "divine">
         <h3>Store</h3>
       </div>
       <p>The best place to buy official merch to support the creators.</p>
       <a href= "https://represent.com/store/pewdiepie"><button class="butt">Merch</button></a href>
     </div>
   </div>
-  <div id="num6" class="tabcontent">
+  <div id="num7" class="tabcontent">
     <div class="LGV">
       <div class= "divine">
         <h3>More</h3>
