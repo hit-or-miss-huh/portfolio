@@ -10,7 +10,7 @@
    <button class="tablinks" onclick="openTab(event, 'num2')">War</button>
    <button class="tablinks" onclick="openTab(event, 'num3')">Gore</button>
    <button class="tablinks" onclick="openTab(event, 'num4')">Vore</button>
-   <button class="tablinks" onclick="openTab(event, 'num5')" onclick="scooore()">Score</button>
+   <button class="tablinks" onclick="openTab(event, 'num5')" onclick="score()">Score</button>
    <button class="tablinks" onclick="openTab(event, 'num6')">Store</button>
    <button class="tablinks" onclick="openTab(event, 'num7')">More</button>
   </div>
@@ -89,14 +89,13 @@
       <div class= "divine">
         <h3>Score</h3>
       </div>
-      <p>Number of clicks.</p>
-      <button onclick="scooore()">Click Me</button>
-      <p><span id="qwert"></span></p>
+      <p>Number of clicks: <span id="qwert"></span></p>
+      <button onclick="score()">Click Me!</button>
       <script>
-        var x = 0
-        }
-        function scooore(item) {
-          document.getElementById("qwert").innerHTML = x = x + 1;
+        var x = 0;
+
+        function score(item) {
+          document.getElementById("qwert").innerHTML = x = x + 1
           return x
         }
       </script>
