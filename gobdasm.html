@@ -10,7 +10,7 @@
    <button class="tablinks" onclick="openTab(event, 'num2')">War</button>
    <button class="tablinks" onclick="openTab(event, 'num3')">Gore</button>
    <button class="tablinks" onclick="openTab(event, 'num4')">Vore</button>
-   <button class="tablinks" onclick="openTab(event, 'num5')" onclick="score()">Score</button>
+   <button class="tablinks" onclick="openTab(event, 'num5')">Score</button>
    <button class="tablinks" onclick="openTab(event, 'num6')">Store</button>
    <button class="tablinks" onclick="openTab(event, 'num7')">More</button>
   </div>
@@ -93,9 +93,11 @@
       <button onclick="score()">Click Me!</button>
       <script>
         var x = 0;
+        var x = localStorage.getItem("someVarKey");
 
         function score(item) {
           document.getElementById("qwert").innerHTML = x = x + 1
+          localStorage.setItem("xkey", x);
           return x
         }
       </script>
